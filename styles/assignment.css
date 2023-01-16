@@ -12,17 +12,19 @@
     height: 1100px;
 }
 /* navigation */
+
 .nav-1{
     display: flex;
     justify-content: space-around;
     gap: 550px;
+    padding-top: 50px;
 }
 .nav-2 ul {
     display: flex;
     font-weight: 500;
 font-size: 15px;
 line-height: 26px;
-text-align: center;
+/* text-align: center; */
 color: #424242;
     list-style: none;
     gap: 25px;
@@ -72,7 +74,7 @@ color: #424242;
     display: flex;
     margin-top: 50px;
     justify-content: center;
-    gap: 50px;
+    gap: 100px;
 }
 /* team-images */
 .team-images{
@@ -120,6 +122,7 @@ color: #424242;
     padding-top: 100px;
     gap: 100px;
     padding-bottom: 300px;
+    
 }
 .third-section{
     width: 400px;
@@ -132,8 +135,8 @@ background: #FF900E;
 color: #FF900E;
 border-radius: 5px;
 position: absolute;
-left: 150px;
-top: 1810px;
+left: 200px;
+top: 1770px;
 }
 .third-paragraph{
     font-weight: 400;
@@ -179,8 +182,10 @@ line-height: 70px;
 text-align: center;
 color: #FFFFFF;
 border: 0;
-top: 2450px;
-left: 600px;
+top:2450px;
+right: 600px;
+
+
 }
 .icon{
     display: flex;
@@ -239,3 +244,89 @@ margin-right: auto;
     padding-top: 15px;
     
 }
+/* Using Hover  */
+.btn-2:hover,.icon-item:hover,.btn-1:hover,.team-image:hover,.banner-image:hover,.third-section-main:hover{
+    border:2px solid blue;
+}
+/* Responsive */
+@media screen and (max-width:576px) {
+    .nav-1{
+        flex-direction: column;
+        /* background-color: rgba(255, 144, 14, 0.1); */
+        gap: 20px;
+        padding-left: 10px;
+    }
+    .nav-2 ul{
+        flex-direction: column;
+        padding-left: 10px;
+    }
+    .team-images{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .second-section-main{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .section-paragraph{
+    padding-left:10PX ;
+        height: 500px;
+    }
+    .paragraph-2{
+        width: 300px;
+        height: 165px;
+    }
+    .banner-image{
+        width: 400px;
+        height: 300px;
+    }
+    .third-section-main{
+        flex-direction: column;
+        gap: 100px;
+    }
+    .architect{
+        width: 100px;
+        height: 300px;
+        padding-top: 100px;
+    }
+    .icon-head{
+        padding-top: 500px;
+    }
+    .third-section{
+        padding-bottom: 100px;
+        
+        
+    }
+    .btn-2{
+        position: relative;
+        margin: 200px;
+        
+    }
+    .icon{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sponsors{
+        flex-direction: column;
+        gap: 100px;
+        align-items: center;
+    }
+    .last-part{
+        text-align: center;
+    }
+    .icons-head{
+        padding-left: 80px;
+    }
+    .last-part p{
+    text-align: left;
+    }
+    .rectangle{
+        /* margin-top: 600px;
+        margin-right: 510px; */
+
+    }
+}
+
