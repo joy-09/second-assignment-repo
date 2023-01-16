@@ -245,7 +245,7 @@ margin-right: auto;
     
 }
 /* Using Hover  */
-.btn-2:hover,.icon-item:hover,.btn-1:hover,.team-image:hover,.banner-image:hover,.third-section-main:hover{
+.btn-2:hover,.icon-item p,h2:hover,.btn-1:hover,.team-image:hover,.banner-image:hover,.third-section-main:hover{
     border:2px solid blue;
 }
 /* Responsive */
